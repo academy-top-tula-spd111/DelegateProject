@@ -101,7 +101,7 @@
             //    return a - b;
             //}));
 
-            //HelloDelegate hello = delegate () { Console.WriteLine("Hello"); };
+            HelloDelegate hello = () => { Console.WriteLine("Hello"); };
             //HelloDelegate helloLambda = () => Console.WriteLine("Hello");
 
             //OperationDelegate operationDelegate = new OperationDelegate(Mult);
